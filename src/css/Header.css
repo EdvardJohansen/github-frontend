@@ -1,0 +1,19 @@
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme-container a {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.theme-container a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.theme-container img {
+    margin-left: 16px;
+}
