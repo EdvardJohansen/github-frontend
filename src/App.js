@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header';
+import Profile from './components/Profile';
 import SearchBar from './components/SearchBar';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="app-container">
         <Header />
         <SearchBar />
+        <Profile />
     </div>
   );
 }

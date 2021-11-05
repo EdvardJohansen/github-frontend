@@ -1,0 +1,39 @@
+.profile-container {
+    background-color: #1e2a47;
+    margin: 16px 0;
+    padding: 32px 20px;
+    border-radius: 12px;
+}
+
+.profile-summary {
+    display: flex;
+}
+
+.summary-details-container {
+    margin-left: 16px;
+}
+
+.summary-details-container p {
+    line-height: 0.5rem;
+}
+
+.profile-description-container {
+    line-height: 2rem;
+}
+
+.stats-container {
+    display: flex;
+    padding: 8px 0;
+    justify-content: space-evenly;
+    background-color: #141D2F;
+    border-radius: 12px;
+}
+
+.stats-group {
+    text-align: center;
+}
+
+.stats-group--title {
+    color: rgb(160, 160, 160);
+    font-size: 0.75rem;
+}
