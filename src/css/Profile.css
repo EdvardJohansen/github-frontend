@@ -37,3 +37,18 @@
     color: rgb(160, 160, 160);
     font-size: 0.75rem;
 }
+
+.socials-group {
+    margin: 14px 0;
+}
+
+.socials-group a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+}
+
+.socials-group img {
+    width: 18px;
+    height: 18px;
+}
