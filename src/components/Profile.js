@@ -20,7 +20,7 @@ const Profile = () => {
             </div>
 
             <div className="profile-description-container">
-                <p>Lorem ipsum half brain dfiosjfe oseijfoseijf sofjoiej fosiejf oisejf seoifj oseijfos eifjeso ijfseoifjse oifjse oifj seio</p>
+                <p>Lorem ipsum half brain dfiosjfe oseijfoseijf sofjoiej fosiejf oisejf seoifj oseijfos eifjeso ijfseoifjse oifjse oifj</p>
             </div>
 
             <div className="stats-container">
@@ -53,7 +53,7 @@ const Profile = () => {
 
                 <div className="socials-group">
                     <img src={TwitterIcon} alt="Social icon"></img>
-                    <a href="/">Not Available</a>
+                    <a className="socials-group-twitter" href="/">Not Available</a>
                 </div>
 
                 <div className="socials-group">

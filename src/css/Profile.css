@@ -17,6 +17,17 @@
     line-height: 0.5rem;
 }
 
+.summary-username {
+    font-size: 14px;
+    color: rgb(0, 119, 255);
+}
+
+.summary-joined-date {
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+    padding-top: 2px;
+}
+
 .profile-description-container {
     line-height: 2rem;
 }
@@ -45,10 +56,17 @@
 .socials-group a {
     text-decoration: none;
     color: #fff;
-    font-size: 11px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin-left: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .socials-group img {
     width: 18px;
     height: 18px;
+}
+
+.socials-group-twitter {
+    color: rgb(180, 180, 180);
 }
