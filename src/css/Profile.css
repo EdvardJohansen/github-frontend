@@ -1,87 +1,96 @@
 .profile-container {
-    background-color: #1e2a47;
-    color: rgb(160, 160, 160);
-    margin: 16px 0;
-    padding: 32px 20px;
-    border-radius: 12px;
+  background-color: #1e2a47;
+  color: rgb(160, 160, 160);
+  margin: 16px 0;
+  padding: 32px 20px;
+  border-radius: 12px;
 }
 
 .summary-image {
-    width: 60px;
-    height: 60px;
-    margin-top: 12px;
-    border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: 12px;
+  border-radius: 50%;
 }
 
-.summary-title, .stats-group {
-    color: #fff;
+.summary-title,
+.stats-group {
+  color: #fff;
 }
 
 .profile-summary {
-    display: flex;
+  display: flex;
 }
 
 .summary-details-container {
-    margin-left: 16px;
+  margin-left: 16px;
 }
 
 .summary-details-container p {
-    line-height: 0.5rem;
+  line-height: 0.5rem;
 }
 
 .summary-username {
-    font-size: 0.75rem;
-    color: rgb(0, 119, 255);
-    text-decoration: none;
+  font-size: 0.75rem;
+  color: rgb(0, 119, 255);
+  text-decoration: none;
 }
 
 .summary-joined-date {
-    color: rgb(180, 180, 180);
-    font-size: 0.85rem;
-    padding-top: 2px;
+  color: rgb(180, 180, 180);
+  font-size: 0.85rem;
+  padding-top: 2px;
 }
 
 .profile-description-container {
-    line-height: 1.8rem;
-    font-size: 0.9rem;
+  line-height: 1.8rem;
+  font-size: 0.9rem;
 }
 
 .stats-container {
-    display: flex;
-    margin: 22px 0;
-    padding: 8px 0;
-    justify-content: space-evenly;
-    background-color: #141D2F;
-    border-radius: 12px;
+  display: flex;
+  margin: 22px 0;
+  padding: 8px 0;
+  justify-content: space-evenly;
+  background-color: #141d2f;
+  border-radius: 12px;
 }
 
 .stats-group {
-    text-align: center;
+  text-align: center;
 }
 
 .stats-group--title {
-    color: rgb(160, 160, 160);
-    font-size: 0.75rem;
+  color: rgb(160, 160, 160);
+  font-size: 0.75rem;
 }
 
 .socials-group {
-    margin: 14px 0;
+  margin: 14px 0;
 }
 
 .socials-group a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    letter-spacing: 1.5px;
-    margin-left: 13px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 8.5px;
+  letter-spacing: 1.5px;
+  margin-left: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .socials-group img {
-    width: 18px;
-    height: 18px;
+  width: 18px;
+  height: 18px;
+  margin-top: 12px;
+}
+
+.socials-container p {
+  margin-left: 30px;
+  margin-top: -18px;
+  font-size: 11.5px;
+  color: rgb(160, 160, 160);
 }
 
 .socials-group-twitter {
-    color: rgb(180, 180, 180);
+  color: rgb(180, 180, 180);
 }

@@ -6,7 +6,6 @@ import Profile from "./components/Profile";
 import SearchBar from "./components/SearchBar";
 
 function App() {
-
   const [userData, setUserData] = useState(null);
 
   const getUserData = (username) => {
@@ -20,7 +19,7 @@ function App() {
     <div className="app-container">
       <Header />
       <SearchBar getUserData={getUserData} />
-      { userData && (<Profile userData={userData}/>) }
+      {userData && <Profile userData={userData} />}
     </div>
   );
 }

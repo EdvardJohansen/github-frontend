@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../css/SearchBar.css";
 import SearchIcon from "../images/search.svg";
 
-const SearchBar = ({getUserData}) => {
+const SearchBar = ({ getUserData }) => {
   const [username, setUsername] = useState(null);
 
   return (
