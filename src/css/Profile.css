@@ -94,3 +94,49 @@
 .socials-group-twitter {
   color: rgb(180, 180, 180);
 }
+
+.socials-group-location-link a {
+  color: rgb(160, 160, 160);
+  font-size: 11.5px;
+  margin: 0px 0px 0px 6px;
+}
+
+.socials-group-twitter-building a {
+  color: rgb(160, 160, 160);
+  font-size: 11.5px;
+  margin: 0px 0px 0px 6px;
+}
+
+@media screen and (min-width: 400px) {
+  .profile-container {
+    width: 390px;
+    margin-left: 70px;
+  }
+
+  .summary-image {
+    width: 90px;
+    height: 90px;
+    margin-top: -5px;
+    margin-left: 5px;
+  }
+
+  .summary-title {
+    margin-left: 20px;
+  }
+
+  .summary-username {
+    margin-left: 20px;
+  }
+
+  .summary-joined-date {
+    margin-left: 20px;
+  }
+
+  .socials-group-location-link {
+    margin-bottom: -90px;
+  }
+
+  .socials-group-twitter-building {
+    margin-left: 200px;
+  }
+}

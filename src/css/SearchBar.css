@@ -35,3 +35,18 @@
   font-size: 11px;
   cursor: pointer;
 }
+
+@media screen and (min-width: 400px) {
+  .search-bar-container {
+    width: 430px;
+    margin-left: 70px;
+  }
+
+  .search-icon {
+    margin-left: 20px;
+  }
+
+  .search-input {
+    margin-left: 10px;
+  }
+}

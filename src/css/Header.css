@@ -17,3 +17,22 @@
 .theme-container img {
   margin-left: 16px;
 }
+
+@media screen and (min-width: 400px) {
+  h1 {
+    margin-left: 65px;
+    font-size: 25px;
+  }
+
+  .header-container {
+    margin-top: 100px;
+  }
+
+  .theme-container img {
+    margin-right: 60px;
+  }
+
+  .theme-container a {
+    font-size: 10px;
+  }
+}

@@ -70,36 +70,48 @@ const Profile = ({ userData }) => {
       </div>
 
       <div className="socials-container">
-        <div className="socials-group">
-          <img src={LocationIcon} alt="Social icon"></img>
-          <a href="/">
-            {!userData.location && <p>Not Available</p>}
-            {userData.location && <p>{userData.location}</p>}
-          </a>
+        <div className="socials-group-location-link">
+          <div className="socials-group">
+            <img src={LocationIcon} alt="Social icon"></img>
+            <a href="/">
+              {!userData.location && <p>Not Available</p>}
+              {userData.location && <p>{userData.location}</p>}
+            </a>
+          </div>
+
+          <div className="socials-group">
+            <img src={LinkIcon} alt="Social icon"></img>
+            <a className="socials-group-link" href="/">
+              {!userData.location && <a>Not Available</a>}
+              {userData.location && <a>{userData.location}</a>}
+            </a>
+          </div>
         </div>
 
-        <div className="socials-group">
-          <img src={LinkIcon} alt="Social icon"></img>
-          <a href="/">
-            {!userData.url && <p>Not Available</p>}
-            {userData.html_url && <p>{userData.html_url}</p>}
-          </a>
-        </div>
+        <div className="socials-group-twitter-building">
+          <div className="socials-group">
+            <img
+              className="socials-group-twitter-img"
+              src={TwitterIcon}
+              alt="Social icon"
+            ></img>
+            <a href="/">
+              {!userData.twitter_username && <a>Not Available</a>}
+              {userData.twitter_username && <a>{userData.twitter_username}</a>}
+            </a>
+          </div>
 
-        <div className="socials-group">
-          <img src={TwitterIcon} alt="Social icon"></img>
-          <a className="socials-group-twitter" href="/">
-            {!userData.twitter_username && <p>Not Available</p>}
-            {userData.twitter_username && <p>{userData.twitter_username}</p>}
-          </a>
-        </div>
-
-        <div className="socials-group">
-          <img src={BuildingIcon} alt="Social icon"></img>
-          <a href="/">
-            {!userData.location && <p>Not Available</p>}
-            {userData.location && <p>{userData.location}</p>}
-          </a>
+          <div className="socials-group">
+            <img
+              className="socials-group-building-img"
+              src={BuildingIcon}
+              alt="Social icon"
+            ></img>
+            <a className="socials-group-building" href="/">
+              {!userData.location && <p>Not Available</p>}
+              {userData.location && <p>{userData.location}</p>}
+            </a>
+          </div>
         </div>
       </div>
     </div>
