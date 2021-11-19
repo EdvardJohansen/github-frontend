@@ -18,7 +18,13 @@
   margin-left: 16px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 475px) {
+  .header-container {
+    width: 436px;
+    margin: 0 auto;
+  }
+}
+/* @media screen and (min-width: 400px) {
   h1 {
     margin-left: 65px;
     font-size: 25px;
@@ -35,4 +41,4 @@
   .theme-container a {
     font-size: 10px;
   }
-}
+} */

@@ -107,36 +107,24 @@
   margin: 0px 0px 0px 6px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 475px) {
   .profile-container {
-    width: 390px;
-    margin-left: 70px;
+    width: 395px;
+    margin: 16px auto;
   }
 
-  .summary-image {
-    width: 90px;
-    height: 90px;
-    margin-top: -5px;
-    margin-left: 5px;
+  .socials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 
-  .summary-title {
-    margin-left: 20px;
+  .socials-group-location-link > div, .socials-group-twitter-building > div {
+    flex: 50%;
   }
 
-  .summary-username {
-    margin-left: 20px;
-  }
-
-  .summary-joined-date {
-    margin-left: 20px;
-  }
-
-  .socials-group-location-link {
-    margin-bottom: -90px;
-  }
-
-  .socials-group-twitter-building {
-    margin-left: 200px;
+  .socials-group {
+    margin-right: 32px;
+    width: 100%;
   }
 }

@@ -36,7 +36,13 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 475px) {
+  .search-bar-container {
+    width: 435px;
+    margin: 0 auto;
+  }
+}
+/* @media screen and (min-width: 400px) {
   .search-bar-container {
     width: 430px;
     margin-left: 70px;
@@ -49,4 +55,4 @@
   .search-input {
     margin-left: 10px;
   }
-}
+} */
